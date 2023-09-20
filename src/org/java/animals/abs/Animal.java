@@ -11,12 +11,4 @@ public abstract class Animal {
 	
 	public abstract void mangia();
 	
-	public void nuota() {
-		System.out.println("I can swim!");
-	}
-	
-	public void vola() {
-		System.out.println("I can fly!");
-	}
-	
 }

@@ -19,5 +19,10 @@ public class Dolphin extends Animal implements INuotante {
 	public String toString() {
 		return "Hi! I'm a dolphin!";
 	}
+	
+	@Override
+	public void nuota() {
+		System.out.println("I can swim!");
+	}
 
 }

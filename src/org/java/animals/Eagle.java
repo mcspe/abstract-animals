@@ -20,5 +20,15 @@ public class Eagle extends Animal implements IVolante, INuotante {
 	public String toString() {
 		return "Hi! I'm a eagle!";
 	}
+	
+	@Override
+	public void nuota() {
+		System.out.println("I can swim!");
+	}
+	
+	@Override
+	public void vola() {
+		System.out.println("I can fly!");
+	}
 
 }

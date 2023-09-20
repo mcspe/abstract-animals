@@ -19,5 +19,10 @@ public class Sparrow extends Animal implements IVolante {
 	public String toString() {
 		return "Hi! I'm a sparrow!";
 	}
+	
+	@Override
+	public void vola() {
+		System.out.println("I can fly!");
+	}
 
 }

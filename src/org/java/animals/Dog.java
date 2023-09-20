@@ -20,4 +20,9 @@ public class Dog extends Animal implements INuotante {
 		return "Hi! I'm a dog!";
 	}
 	
+	@Override
+	public void nuota() {
+		System.out.println("I can swim!");
+	}
+	
 }
